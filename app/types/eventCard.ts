@@ -6,5 +6,7 @@ export type EventCardProps = {
   time: string;
   location: string;
   price: string;
+  rating?: number;
+  variant?: 'default' | 'forYou';
 };
 

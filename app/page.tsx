@@ -5,6 +5,7 @@ import {
   TONIGHTS_SPOTLIGHT,
   HOT_THIS_WEEK,
   UNMISSABLE,
+  FOR_YOU_CARDS,
 } from '@/constants/events';
 import {EXCLUSIVES_CARDS} from '@/constants/exclusives';
 
@@ -17,6 +18,7 @@ export default function Home() {
         <EventSection title="Hot This Week" events={HOT_THIS_WEEK} />
         <EventSection title="Unmissable" events={UNMISSABLE} />
         <ExclusivesSection title="Exclusives" cards={EXCLUSIVES_CARDS} />
+        <EventSection title="For you" events={FOR_YOU_CARDS} />
       </div>
     </div>
   );

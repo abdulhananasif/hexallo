@@ -163,3 +163,46 @@ export const FOR_YOU_CARDS: readonly EventCardProps[] = [
     price: 'USD 89',
   },
 ] as const;
+
+export const GHANAS_TOP_10S: readonly EventCardProps[] = [
+  {
+    image: '/event17.jpg',
+    category: 'Event',
+    eventName: 'DJ Liv North Live',
+    rating: 4.8,
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event18.jpg',
+    category: 'Tour',
+    eventName: 'DJ Liv North Live',
+    rating: 4.8,
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event19.jpg',
+    category: 'Activity',
+    eventName: 'DJ Liv North Live',
+    rating: 4.8,
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event20.jpg',
+    category: 'Indulge',
+    eventName: 'DJ Liv North Live',
+    rating: 4.8,
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+] as const;

@@ -1,10 +1,12 @@
 import Navbar from '@/components/Navbar';
 import EventSection from '@/components/EventSection';
+import ExclusivesSection from '@/components/ExclusivesSection';
 import {
   TONIGHTS_SPOTLIGHT,
   HOT_THIS_WEEK,
   UNMISSABLE,
 } from '@/constants/events';
+import {EXCLUSIVES_CARDS} from '@/constants/exclusives';
 
 export default function Home() {
   return (
@@ -14,6 +16,7 @@ export default function Home() {
         <EventSection title="Tonight's Spotlight" events={TONIGHTS_SPOTLIGHT} />
         <EventSection title="Hot This Week" events={HOT_THIS_WEEK} />
         <EventSection title="Unmissable" events={UNMISSABLE} />
+        <ExclusivesSection title="Exclusives" cards={EXCLUSIVES_CARDS} />
       </div>
     </div>
   );

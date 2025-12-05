@@ -249,7 +249,9 @@ export default function TopNavbar() {
                 </Link>
               )
             )}
-            <Button>Create Event</Button>
+            <Button className="font-bold text-[13px] leading-[120%] text-[#000000] font-inter">
+              Create Event
+            </Button>
           </div>
         </div>
       </div>

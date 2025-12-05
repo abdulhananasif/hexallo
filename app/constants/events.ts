@@ -1,0 +1,118 @@
+import {EventCardProps} from '@/types/eventCard';
+
+export const TONIGHTS_SPOTLIGHT: EventCardProps[] = [
+  {
+    image: '/event1.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event2.png',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event3.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event4.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+];
+
+export const HOT_THIS_WEEK: EventCardProps[] = [
+  {
+    image: '/event5.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event6.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event7.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event8.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+];
+
+export const UNMISSABLE: EventCardProps[] = [
+  {
+    image: '/event9.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event10.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event11.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+  {
+    image: '/event12.jpg',
+    category: 'Lounge',
+    eventName: 'DJ Liv North Live',
+    date: 'Wed, 5th Dec',
+    time: '10:30 PM - 12:30 PM',
+    location: 'NewYork City',
+    price: 'USD 89',
+  },
+];
